@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px
+    
+}
+.abajo{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    margin: 20px;
+    border: solid 2px rgb(128, 0, 255);
+    h1{ color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    }
+}
+
+.tar{
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info{
+    text-align: left;
+    padding: 30px;
+}
+
+p{
+    color: aliceblue;
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h3{
+    color: aliceblue;
+    font-family: "Tiny5 Duo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+} 
+
+button{
+    background-color: green;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+body{
+    padding: 20px;
+}
+
+img{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.545);
+    width: 200px;
+}
+
+
+.tiny5{
+    font-family: "Tiny5 Duo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "BLED" 0,
+    "JITT" 0,
+    "ROND" 0;
+}
+
